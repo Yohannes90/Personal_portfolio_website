@@ -6,8 +6,15 @@
     <title>Personal Portfolio Website</title>
     <!-- CSS files -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/skin/color_1.css">
+    <link rel="stylesheet" href="css/skin/color-1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- style switcher -->
+    <link rel="stylesheet" href="css/skin/color-1.css" class="alternate-style" title="color-1" disabled>
+    <link rel="stylesheet" href="css/skin/color-2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="css/skin/color-3.css" class="alternate-style" title="color-3" disabled>
+    <link rel="stylesheet" href="css/skin/color-4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" href="css/skin/color-5.css" class="alternate-style" title="color-5" disabled>
+    <link rel="stylesheet" href="css/style-switcher.css">
 </head>
 <body>
 
@@ -21,21 +28,21 @@
                 <span></span>
             </div>
             <nav>
-                <div><a href="#" class="active"><i class="fa fa-home"></i> Home</a></div>
-                <div><a href="#"><i class="fa fa-user"></i> About</a></div>
-                <div><a href="#"><i class="fa fa-list"></i> Services</a></div>
-                <div><a href="#"><i class="fa fa-briefcase"></i> Portfolio</a></div>
-                <div><a href="#"><i class="fa fa-comments"></i> Contact</a></div>
+                <div><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></div>
+                <div><a href="#about"><i class="fa fa-user"></i> About</a></div>
+                <div><a href="#service"><i class="fa fa-list"></i> Services</a></div>
+                <div><a href="#portfolio"><i class="fa fa-briefcase"></i> Portfolio</a></div>
+                <div><a href="#contact"><i class="fa fa-comments"></i> Contact</a></div>
             </nav>
         </aside>
         <!-- Home section -->
         <article>
-            <section class="home">
+            <section id="home" class="home">
                 <div class="container">
                     <div class="row">
                         <div class="home-info padd-15">
-                            <h3 class="hello">Hello, my name is <span class="name">Yohannes Mekonnen</span></h3>
-                            <h3 class="my-profession">I'm a <span class="typing">Software Engineer.</span></h3>
+                            <h3 class="hello">Hello, My name is <span class="name">Yohannes Mekonnen.</span></h3>
+                            <h3 class="my-profession">I'm a <span class="typing">Software Engineer</span></h3>
                             <p>I'm a highly motivated, passionate and skilled Software Engineer/Developer with a strong foundation
                                  in coding principles and a keen eye for detail, I am confident in my ability to contribute to
                                  the development of innovative and cutting-edge software solutions.</p>
@@ -48,7 +55,7 @@
                 </div>
             </section>
             <!-- About section -->
-            <section class="about">
+            <section id="about" class="about">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -272,7 +279,7 @@
                 </div>
             </section>
             <!-- Services section -->
-            <section class="service">
+            <section id="service" class="service">
                 <div class="container">
                     <div class="row">
                         <div class="section-title pad-15">
@@ -344,7 +351,7 @@
                 </div>
             </section>
             <!-- Portfolio section -->
-            <section class="portfolio">
+            <section id="portfolio" class="portfolio">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -409,7 +416,7 @@
                 </div>
             </section>
 
-            <section class="contact">
+            <section id="contact" class="contact">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -491,8 +498,25 @@
 
     </main>
 
-
+    <!-- Floating theme switcher -->
+    <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <div class="day-night s-icon">
+            <i class="fas fa-sun"></i>
+        </div>
+        <h4>Theme Colors</h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>
+    </div>
     <!-- JavaScript files -->
     <script src="js/script.js"></script>
+    <script src="js/style-switcher.js"></script>
 </body>
 </html>
