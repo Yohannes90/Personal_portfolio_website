@@ -96,7 +96,13 @@ const btn = document.querySelector("section.contact .btn");
             const email = document.querySelector("#email").value;
             const subject = document.querySelector("#subject").value;
             const message = document.querySelector("#message").value;
-            const body = `<html><strong>Name</strong>: ${name}<br/><strong>Email</strong>: ${email}<br/><strong>Subject</strong> ${subject}<br/><Strong>Message</strong>: ${message}<br/></html>`;
+            const body = `
+            <html>
+                <strong>Name</strong>: ${name}<br/>
+                <strong>Email</strong>: ${email}<br/>
+                <strong>Subject</strong> ${subject}<br/>
+                <Strong>Message</strong>: ${message}<br/>
+            </html>`;
 
             Email.send({
                 SecureToken : "a4cdcb78-b925-4643-a06b-fce572758b6d",
@@ -107,5 +113,4 @@ const btn = document.querySelector("section.contact .btn");
             }).then(
               message => alert(message)
             );
-            alert(body);
         });
