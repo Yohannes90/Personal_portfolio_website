@@ -192,7 +192,9 @@ aside .logo a {
 
 aside .logo a span {
     font-family: 'Clicker Script', cursive;
-    font-size: 40px;
+    color: var(--skin-color);
+    font-size: 45px;
+    font-weight: 900;
 }
 
 aside .logo a::before {
@@ -370,8 +372,9 @@ h3.my-profession {
 }
 
 .home .home-img img {
-    margin: auto;
-    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 50px;
+    border-radius: 60px;
     height: 400px;
 }
 
@@ -501,7 +504,6 @@ h3.my-profession {
 .about .about-content .timeline-box {
     flex: 0 0 100%;
     max-width: 100%;
-    background-color: red;
 }
 
 .about .about-content .timeline {
@@ -516,14 +518,16 @@ h3.my-profession {
 .about .about-content .education .timeline .timeline-item {
     position: relative;
     padding-left: 37px;
-    padding-bottom: 50px;
+    padding-right: 37px;
+    padding: 16px 40px;
+    border-bottom: 1px solid var(--bg-black-50);
 }
 
 .about .about-content .timeline .timeline-item:last-child {
-    padding-bottom: 0;
+    border-bottom: none;
 }
 
-.about .about-content .education .timeline .timeline-item::before {
+/* .about .about-content .education .timeline .timeline-item::before {
     content: '';
     width: 1px;
     position: absolute;
@@ -531,9 +535,9 @@ h3.my-profession {
     left: 7px;
     top: 0;
     background-color: var(--skin-color);
-}
+} */
 
-.about .about-content .timeline .circle-dot {
+/* .about .about-content .timeline .circle-dot {
     position: absolute;
     left: 0;
     top: 0;
@@ -541,6 +545,10 @@ h3.my-profession {
     width: 15px;
     border-radius: 50%;
     background-color: var(--skin-color);
+} */
+
+.about .about-content .timeline {
+    text-align: center;
 }
 
 .about .about-content .timeline .timeline-date {
@@ -617,7 +625,7 @@ h3.my-profession {
 }
 
 .service .service-item .service-item-inner:hover {
-    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+    box-shadow: 0 0 20px var(--text-black-700);
 }
 
 .service .service-item .service-item-inner .icon {
@@ -678,10 +686,15 @@ h3.my-profession {
 }
 
 .portfolio .portfolio-item {
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
+    flex: 0 0 30%;
+    max-width: 30%;
     margin-bottom: 30px;
-    /* background: var(--bg-black-100); */
+    padding: 0;
+    margin: 1.5%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
 }
 
 .portfolio .portfolio-item .portfolio-inner {
@@ -694,29 +707,35 @@ h3.my-profession {
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
     text-align: center;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 0;
 }
 
 .portfolio .portfolio-item .portfolio-item-inner .portfolio-detail h4 {
     font-size: 18px;
-    margin-bottom: 7px;
+    margin: 7px auto 0;
     color: var(--text-black-900);
     font-weight: 700;
-    color: var(--skin-color);
+    background-color: var(--bg-black-100);
     text-transform: capitalize;
+    height: 50px;
 }
 
 .portfolio .portfolio-item .portfolio-item-inner .portfolio-detail p {
     line-height: 25px;
-    padding: 5px auto;
+    margin: 3px auto;
     color: var(--text-black-700);
 }
 
 .portfolio .portfolio-item .portfolio-item-inner .portfolio-detail p span {
-    border: 1px solid var(--skin-color);
     border-radius: 16px;
     font-size: 12px;
-    padding: 4px;
-    background: var(--bg-black-900);
+    padding: 6px;
+    background: var(--bg-black-50);
     color: var(--text-black-700);
     font-weight: 700;
     line-height: 16px;
@@ -737,12 +756,15 @@ h3.my-profession {
 
 .portfolio .portfolio-item .portfolio-img img {
     width: 100%;
+    height: 180px;
     display: block;
 }
 
 .portfolio .portfolio-item:hover {
     transform: scale(1.07);
+    box-shadow: 0 0 20px var(--text-black-700);
 }
+
 
 /* Contact me section */
 
