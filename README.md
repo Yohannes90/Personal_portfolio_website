@@ -15,7 +15,11 @@
 
 ### Built With
 
-- The personal portfolio website is built using **HTML**, **CSS**, and **JavaScript**. It also utilizes
+- The personal portfolio website is built using
+    - **HTML**
+    - **CSS**, and
+    - **JavaScript**
+- It also utilizes
     - **TypedJs** for typeing animation on home section,
     - **smtpJs** for server sending email in contact me section,
     - **gtagJs** for trackining data such as audience, page views, and events to view on Google Analytics
@@ -28,7 +32,7 @@
 
 ## Features
 
-### The personal portfolio website includes the following sections:
+- The personal portfolio website includes the following sections:
     - Navigation: The website includes a navigation bar with links to different sections such as Home, About, Services, Portfolio, and Contact.
     - Home: The home section introduces me as Yohannes Mekonnen, a Software Engineer/Developer.
     - About: The about section provides detailed information about me, including my education, skills, and  proficiency in programming languages.
@@ -43,7 +47,7 @@
     - Change picture
     - Add better projects
 
-### The personal portfolio website includes the following sections:
+- The personal portfolio website includes the following sections:
     - Navigation: The website includes a navigation bar with links to different sections such as Home, About, Services, Portfolio, and Contact.
     - Home: The home section introduces me as Yohannes Mekonnen, a Software Engineer/Developer.
     - About: The about section provides detailed information about me, including my education, skills, and  proficiency in programming languages.
