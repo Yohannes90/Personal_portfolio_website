@@ -15,7 +15,16 @@
 
 ### Built With
 
-- The personal portfolio website is built using **HTML**, **CSS**, and **JavaScript**. It also utilizes **TypedJs** for typeing animation on home section, **smtpJs** for server sending email in contact me section, **font-awesome** for icons in different sections. And tools used include **semistandard** to make sure JS code is semistandard compliant **G-Drive Linker** to generate direct download link from googleDoc so that i dont have to upload my CV to this repo every time i update it **favicon.io** for designing and organizing favicon, **VScode** as IDE, **git** and **github** as version control...
+- The personal portfolio website is built using **HTML**, **CSS**, and **JavaScript**. It also utilizes
+    - **TypedJs** for typeing animation on home section,
+    - **smtpJs** for server sending email in contact me section,
+    - **gtagJs** for trackining data such as audience, page views, and events to view on Google Analytics
+    - **font-awesome** for icons in different sections. And tools used include
+    - **semistandard** to make sure JS code is semistandard compliant
+    - **G-Drive Linker** to generate direct download link from googleDoc so that i dont have to upload my CV to this repo every time i update it
+    - **favicon.io** for designing and organizing favicon,
+    - **VScode** as IDE,
+    - **git** and **github** as version control...
 
 ## Features
 
@@ -48,7 +57,6 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/Yohannes90)
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/Yohannes90)
 [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@Yohannes90)
-[![Codepen](https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/@Yohannes-Mekonnen)
 
 ## Acknowledgements
 
