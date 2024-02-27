@@ -15,7 +15,7 @@
 
 ### Built With
 
-- The personal portfolio website is built using **HTML**, **CSS**, and **JavaScript**. It also utilizes **TypedJs** for typeing animation on home section, **smtpJs** for server sending email in contact me section, **font-awesome** for icons in different sections. And tools used include **G-Drive Linker** to generate direct download link from googleDoc so that i dont have to upload my CV to this repo every time i update it **favicon.io** for designing and organizing favicon, **VScode** as IDE, **git** and **github** as version control...
+- The personal portfolio website is built using **HTML**, **CSS**, and **JavaScript**. It also utilizes **TypedJs** for typeing animation on home section, **smtpJs** for server sending email in contact me section, **font-awesome** for icons in different sections. And tools used include **semistandard** to make sure JS code is semistandard compliant **G-Drive Linker** to generate direct download link from googleDoc so that i dont have to upload my CV to this repo every time i update it **favicon.io** for designing and organizing favicon, **VScode** as IDE, **git** and **github** as version control...
 
 ## Features
 
@@ -27,6 +27,22 @@
     - Trainings and Certificates: This section showcases the various trainings and certificates I have obtained.
     - Services: The services section highlights the software development services I offer.
     - Portfolio: The portfolio section showcases some of my past projects.
+
+## Things to include in near Future
+    - Read more and less buttons in education and training section
+    - Copy to clipboard on click for long links
+    - Change picture
+    - Add better projects
+
+### The personal portfolio website includes the following sections:
+    - Navigation: The website includes a navigation bar with links to different sections such as Home, About, Services, Portfolio, and Contact.
+    - Home: The home section introduces me as Yohannes Mekonnen, a Software Engineer/Developer.
+    - About: The about section provides detailed information about me, including my education, skills, and  proficiency in programming languages.
+    - Education: The education section lists my educational background, related courses and trainings I have completed.
+    - Trainings and Certificates: This section showcases the various trainings and certificates I have obtained.
+    - Services: The services section highlights the software development services I offer.
+    - Portfolio: The portfolio section showcases some of my past projects.
+
 
 ## Contact
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/Yohannes90)
