@@ -23,7 +23,7 @@
     - **TypedJs** for typeing animation on home section,
     - **smtpJs** for server sending email in contact me section,
     - **gtagJs** for trackining data such as audience, page views, and events to view on Google Analytics
-    - **font-awesome** for icons in different sections. And tools used include
+    - **font-awesome** for icons in different sections.
     - **semistandard** to make sure JS code is semistandard compliant
     - **G-Drive Linker** to generate direct download link from googleDoc so that i dont have to upload my CV to this repo every time i update it
     - **favicon.io** for designing and organizing favicon,
