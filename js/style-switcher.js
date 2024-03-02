@@ -32,10 +32,20 @@ function changeColor () {
 
 /* theme light and dark mode */
 
+function changeHeroImage() {
+  const img_hero = document.querySelector('.home .home-img img').src;
+  if (img_hero.indexOf('hero_light.jpg') != -1) {
+    document.querySelector('.home .home-img img').src = 'images/hero_dark.png';
+  } else {
+    document.querySelector('.home .home-img img').src = 'images/hero_light.jpg';
+  }
+}
+
 const dayNight = document.querySelector('.day-night');
 dayNight.addEventListener('click', () => {
   dayNight.querySelector('i').classList.toggle('fa-sun');
   dayNight.querySelector('i').classList.toggle('fa-moon');
+  changeHeroImage();
   document.body.classList.toggle('dark');
 });
 window.addEventListener('load', () => {

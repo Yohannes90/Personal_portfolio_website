@@ -389,6 +389,8 @@ h3.my-profession {
     margin-right: 50px;
     border-radius: 60px;
     height: 400px;
+    background: #302e4d;
+    border: 3px solid var(--skin-color);
 }
 
 /* about section */
